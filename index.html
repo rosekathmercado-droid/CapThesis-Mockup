@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CapThesis Mockup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= LOGIN & REGISTER ================= -->
+    <section class="screen login-screen">
+
+        <div class="auth-card">
+            <div class="logo-box">LOGO</div>
+
+            <h1>Login</h1>
+            <p class="subtitle">Capstone and Thesis Management System</p>
+
+            <div class="input-box">Email / Username</div>
+            <div class="input-box">Password</div>
+
+            <div class="login-options">
+                <span>☐ Remember me</span>
+                <span>Forgot password?</span>
+            </div>
+
+            <div class="button">Login</div>
+
+            <p class="small-text center">
+                No account? <strong>Register</strong>
+            </p>
+        </div>
+
+        <div class="auth-card">
+
+            <h1>Register (Student)</h1>
+
+            <div class="input-box">Full name</div>
+            <div class="input-box">Student ID</div>
+            <div class="input-box">Program / Course</div>
+            <div class="input-box">Email</div>
+
+            <div class="two-column">
+                <div class="input-box">Password</div>
+                <div class="input-box">Confirm</div>
+            </div>
+
+            <div class="input-box">Group (optional) ▾</div>
+
+            <div class="button">Create Account</div>
+
+            <p class="small-text">
+                Advisers, panel, coordinators: accounts are created by the Administrator.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= STUDENT DASHBOARD ================= -->
+    <section class="screen dashboard-screen">
+
+        <aside class="sidebar">
+
+            <div class="logo-area">
+                <div class="logo-placeholder">LOGO · CapTMS</div>
+            </div>
+
+            <div class="role-label">STUDENT</div>
+
+            <div class="nav-item active">Dashboard</div>
+            <div class="nav-item">My Project</div>
+            <div class="nav-item">Submissions</div>
+            <div class="nav-item">Adviser and Panel</div>
+            <div class="nav-item">Feedback and Evaluation</div>
+            <div class="nav-item">Similarity Results</div>
+            <div class="nav-item">Notifications (3)</div>
+            <div class="nav-item">Profile</div>
+
+            <div class="nav-item logout">Logout</div>
+
+        </aside>
+
+        <main class="main-content">
+
+            <div class="page-header">
+                <h1>Student Dashboard</h1>
+
+                <div class="outline-button">
+                    Bell · Notifications 3
+                </div>
+            </div>
+
+            <div class="dashboard-row">
+
+                <div class="project-card large-card">
+
+                    <h2>My Project</h2>
+
+                    <div class="info-box">
+                        Project title: [Capstone / Thesis title]
+                    </div>
+
+                    <p>
+                        Group members:
+                        [Member 1], [Member 2], [Member 3]
+                    </p>
+
+                    <p>
+                        Adviser: [Name]
+                        &nbsp;&nbsp;
+                        Panel: [Name], [Name]
+                    </p>
+
+                    <p>
+                        Status: [Ongoing]
+                        &nbsp;&nbsp;
+                        Progress: [=====----] 50%
+                    </p>
+
+                    <div class="outline-button small-button">
+                        View Project Details
+                    </div>
+
+                </div>
+
+                <div class="project-card notification-card">
+
+                    <h2>Notifications</h2>
+
+                    <div class="info-box">
+                        New feedback from adviser
+                    </div>
+
+                    <div class="info-box">
+                        Deadline: Chapter 1–3 in 3 days
+                    </div>
+
+                    <div class="info-box">
+                        Similarity result ready
+                    </div>
+
+                    <p class="small-text">View all</p>
+
+                </div>
+
+            </div>
+
+            <div class="project-card">
+
+                <h2>Submission Requirements and Deadlines</h2>
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Requirement</th>
+                            <th>Deadline</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Chapters 1–3</td>
+                            <td>[date]</td>
+                            <td>Submitted</td>
+                            <td>View</td>
+                        </tr>
+
+                        <tr>
+                            <td>Chapters 1–5</td>
+                            <td>[date]</td>
+                            <td>Pending</td>
+                            <td>Upload</td>
+                        </tr>
+
+                        <tr>
+                            <td>Final manuscript</td>
+                            <td>[date]</td>
+                            <td>Not open</td>
+                            <td>—</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </main>
+
+    </section>
+
+
+    <!-- ================= STUDENT SUBMISSION ================= -->
+    <section class="screen dashboard-screen">
+
+        <aside class="sidebar">
+
+            <div class="logo-area">
+                <div class="logo-placeholder">LOGO · CapTMS</div>
+            </div>
+
+            <div class="role-label">STUDENT</div>
+
+            <div class="nav-item">Dashboard</div>
+            <div class="nav-item">My Project</div>
+            <div class="nav-item active">Submissions</div>
+            <div class="nav-item">Adviser and Panel</div>
+            <div class="nav-item">Feedback and Evaluation</div>
+            <div class="nav-item">Similarity Results</div>
+            <div class="nav-item">Notifications</div>
+            <div class="nav-item">Profile</div>
+
+            <div class="nav-item logout">Logout</div>
+
+        </aside>
+
+        <main class="main-content">
+
+            <div class="page-header">
+                <h1>Submit Document</h1>
+            </div>
+
+            <div class="dashboard-row">
+
+                <div class="project-card">
+
+                    <div class="input-box">
+                        Select requirement ▾
+                    </div>
+
+                    <div class="upload-area">
+
+                        <div class="upload-icon">↑</div>
+
+                        <p>
+                            Drag and drop PDF here, or <strong>Browse</strong>
+                        </p>
+
+                        <span>
+                            (PDF only, text-based)
+                        </span>
+
+                    </div>
+
+                    <div class="input-box">
+                        File: chapter1-3.pdf (2.1 MB)
+                    </div>
+
+                    <div class="button">
+                        Upload and Check Similarity
+                    </div>
+
+                </div>
+
+
+                <div class="project-card">
+
+                    <h2>Feedback and Evaluation</h2>
+
+                    <div class="info-box">
+                        Adviser: “[comment preview]”
+                    </div>
+
+                    <div class="info-box">
+                        Panel: “[recommendation preview]”
+                    </div>
+
+                    <div class="info-box">
+                        Evaluation: [result]
+                    </div>
+
+                    <div class="outline-button small-button">
+                        View All Feedback
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <h2>My Submissions</h2>
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Document</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                            <th>Similarity</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Chapters 1–3</td>
+                            <td>[date]</td>
+                            <td>Under review</td>
+                            <td>[ % ] View result</td>
+                            <td>View PDF</td>
+                        </tr>
+
+                        <tr>
+                            <td>Title proposal</td>
+                            <td>[date]</td>
+                            <td>Approved</td>
+                            <td>[ % ] View result</td>
+                            <td>View PDF</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </main>
+
+    </section>
+
+
+    <!-- ================= ADVISER AND PANEL REVIEW ================= -->
+    <section class="screen dashboard-screen">
+
+        <aside class="sidebar">
+
+            <div class="logo-area">
+                <div class="logo-placeholder">
+                    LOGO · CapTMS
+                </div>
+            </div>
+
+            <div class="role-label">
+                ADVISER / PANEL
+            </div>
+
+            <div class="nav-item">
+                Dashboard
+            </div>
+
+            <div class="nav-item active">
+                Assigned Projects
+            </div>
+
+            <div class="nav-item">
+                Submitted Documents
+            </div>
+
+            <div class="nav-item">
+                Evaluations
+            </div>
+
+            <div class="nav-item">
+                Notifications (2)
+            </div>
+
+            <div class="nav-item">
+                Profile
+            </div>
+
+            <div class="nav-item logout">
+                Logout
+            </div>
+
+        </aside>
+
+
+        <main class="main-content">
+
+            <div class="page-header">
+                <h1>
+                    Review: [Project title] · Chapters 1–3
+                </h1>
+            </div>
+
+
+            <div class="review-layout">
+
+                <!-- PDF VIEWER -->
+                <div class="pdf-viewer">
+
+                    <div class="pdf-placeholder">
+
+                        <div class="pdf-icon">
+                            PDF
+                        </div>
+
+                        <h2>PDF VIEWER</h2>
+
+                        <p>
+                            page 1 / 24
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT PANEL -->
+                <div class="review-sidebar">
+
+
+                    <!-- SIMILARITY -->
+                    <div class="project-card review-card">
+
+                        <h2>Similarity</h2>
+
+                        <div class="similarity-score">
+                            [ % ]
+                        </div>
+
+                        <div class="outline-button">
+                            View Similarity Result
+                        </div>
+
+                    </div>
+
+
+                    <!-- COMMENTS -->
+                    <div class="project-card review-card">
+
+                        <h2>
+                            Comments and Recommendations
+                        </h2>
+
+                        <div class="comment-box">
+                            Write comment...
+                        </div>
+
+                        <div class="outline-button">
+                            Post Comment
+                        </div>
+
+                    </div>
+
+
+                    <!-- EVALUATION -->
+                    <div class="project-card review-card">
+
+                        <h2>
+                            Record Evaluation
+                        </h2>
+
+                        <div class="input-box">
+                            Rating / Score
+                        </div>
+
+                        <div class="input-box">
+                            Decision ▾ Approve / Revise
+                        </div>
+
+                        <div class="button">
+                            Save Evaluation
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </main>
+
+    </section>
+
+    <!-- =========================
+     SIMILARITY RESULT
+========================= -->
+<section class="screen similarity-screen">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo-box">
+      LOGO · CapTMS
+    </div>
+
+    <div class="sidebar-label">AUTHORIZED USER</div>
+
+    <div class="nav-item">Dashboard</div>
+    <div class="nav-item">Projects</div>
+    <div class="nav-item active">Similarity Results</div>
+    <div class="nav-item">Reports</div>
+
+    <div class="nav-item logout">Logout</div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content similarity-main">
+
+    <h1>Similarity Result · [Document name]</h1>
+
+    <!-- Overall Similarity + Top Matches -->
+    <div class="similarity-top-row">
+
+      <!-- Overall Similarity -->
+      <div class="similarity-card overall-card">
+        <div class="small-label">Overall similarity</div>
+
+        <div class="similarity-percentage">
+          [ % ]
+        </div>
+
+        <div class="formula-text">
+          N-gram match formula:
+          [matched n-grams ÷ total n-grams × 100]
+        </div>
+      </div>
+
+      <!-- Top Matches -->
+      <div class="similarity-card top-matches-card">
+
+        <h3>Top Matches (stored documents)</h3>
+
+        <table class="similarity-table">
+          <thead>
+            <tr>
+              <th>Compared document</th>
+              <th>Group</th>
+              <th>Match %</th>
+              <th></th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>[Title A]</td>
+              <td>[Year]</td>
+              <td>[ % ]</td>
+              <td>Select</td>
+            </tr>
+
+            <tr>
+              <td>[Title B]</td>
+              <td>[Year]</td>
+              <td>[ % ]</td>
+              <td>Select</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+    </div>
+
+
+    <!-- Uploaded + Matched Document -->
+    <div class="document-match-row">
+
+      <!-- Uploaded Document -->
+      <div class="similarity-card document-card">
+
+        <h3>Uploaded document</h3>
+
+        <div class="document-text">
+          ...text with
+          <span class="highlight">
+            [highlighted matching sentence]
+          </span>
+          ...
+        </div>
+
+      </div>
+
+
+      <!-- Matched Document -->
+      <div class="similarity-card document-card">
+
+        <h3>Matched document</h3>
+
+        <div class="document-text">
+          ...text with
+          <span class="highlight">
+            [highlighted matching sentence]
+          </span>
+          ...
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- Buttons -->
+    <div class="similarity-actions">
+
+      <div class="similarity-button secondary">
+        Back
+      </div>
+
+      <div class="similarity-button primary">
+        Result saved to database
+      </div>
+
+    </div>
+
+  </main>
+
+</section>
+<!-- =========================
+     COORDINATOR PROJECTS
+========================= -->
+<section class="screen coordinator-screen">
+
+    <aside class="sidebar">
+
+        <div class="logo-area">
+            <div class="logo-placeholder">
+                LOGO · CapTMS
+            </div>
+        </div>
+
+        <div class="role-label">
+            COORDINATOR
+        </div>
+
+        <div class="nav-item">
+            Dashboard
+        </div>
+
+        <div class="nav-item active">
+            Projects
+        </div>
+
+        <div class="nav-item">
+            Adviser and Panel Assignment
+        </div>
+
+        <div class="nav-item">
+            Requirements and Deadlines
+        </div>
+
+        <div class="nav-item">
+            Similarity Results
+        </div>
+
+        <div class="nav-item">
+            Evaluation Records
+        </div>
+
+        <div class="nav-item">
+            Reports
+        </div>
+
+        <div class="nav-item logout">
+            Logout
+        </div>
+
+    </aside>
+
+
+    <main class="main-content coordinator-main">
+
+        <div class="coordinator-header">
+
+            <h1>
+                Capstone and Thesis Projects
+            </h1>
+
+            <div class="button add-project-button">
+                + Add Project
+            </div>
+
+        </div>
+
+
+        <div class="coordinator-content">
+
+            <!-- PROJECT LIST -->
+            <div class="project-list-card">
+
+                <div class="filter-row">
+
+                    <div class="input-box">
+                        Search title / member
+                    </div>
+
+                    <div class="input-box">
+                        Status ▾
+                    </div>
+
+                </div>
+
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Members</th>
+                            <th>Adviser</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>[Title]</td>
+                            <td>[3]</td>
+                            <td>[Name]</td>
+                            <td>Ongoing</td>
+                            <td>View · Edit</td>
+                        </tr>
+
+                        <tr>
+                            <td>[Title]</td>
+                            <td>[4]</td>
+                            <td>Unassigned</td>
+                            <td>Proposal</td>
+                            <td>View · Edit</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+
+            <!-- RIGHT SIDE -->
+            <div class="coordinator-side">
+
+                <!-- ASSIGN ADVISER AND PANEL -->
+                <div class="project-card coordinator-card">
+
+                    <h2>
+                        Assign Adviser and Panel
+                    </h2>
+
+                    <div class="input-box">
+                        Project ▾
+                    </div>
+
+                    <div class="input-box">
+                        Adviser ▾
+                    </div>
+
+                    <div class="input-box">
+                        Panel members ▾ (multi)
+                    </div>
+
+                    <div class="button">
+                        Save Assignment
+                    </div>
+
+                </div>
+
+
+                <!-- REQUIREMENT AND DEADLINE -->
+                <div class="project-card coordinator-card">
+
+                    <h2>
+                        Set Requirement and Deadline
+                    </h2>
+
+                    <div class="input-box">
+                        Requirement name
+                    </div>
+
+                    <div class="input-box">
+                        Deadline [date]
+                    </div>
+
+                    <div class="button">
+                        Save
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</section>
+<!-- =========================
+     ADMIN DASHBOARD
+========================= -->
+<section class="screen admin-screen">
+
+    <aside class="sidebar">
+
+        <div class="logo-area">
+            <div class="logo-placeholder">
+                LOGO · CapTMS
+            </div>
+        </div>
+
+        <div class="role-label">
+            ADMINISTRATOR
+        </div>
+
+        <div class="nav-item active">
+            Dashboard
+        </div>
+
+        <div class="nav-item">
+            User Accounts
+        </div>
+
+        <div class="nav-item">
+            Roles and Permissions
+        </div>
+
+        <div class="nav-item">
+            Programs
+        </div>
+
+        <div class="nav-item">
+            Project Records
+        </div>
+
+        <div class="nav-item">
+            Reports
+        </div>
+
+        <div class="nav-item">
+            System Settings
+        </div>
+
+        <div class="nav-item logout">
+            Logout
+        </div>
+
+    </aside>
+
+
+    <main class="main-content admin-main">
+
+        <div class="page-header">
+            <h1>
+                Admin Dashboard
+            </h1>
+        </div>
+
+
+        <!-- SUMMARY CARDS -->
+        <div class="admin-summary">
+
+            <div class="admin-box">
+
+                <div class="admin-label">
+                    Total users
+                </div>
+
+                <div class="admin-number">
+                    [0]
+                </div>
+
+            </div>
+
+
+            <div class="admin-box">
+
+                <div class="admin-label">
+                    Registered projects
+                </div>
+
+                <div class="admin-number">
+                    [0]
+                </div>
+
+            </div>
+
+
+            <div class="admin-box">
+
+                <div class="admin-label">
+                    Ongoing / Completed
+                </div>
+
+                <div class="admin-number">
+                    [0] / [0]
+                </div>
+
+            </div>
+
+
+            <div class="admin-box">
+
+                <div class="admin-label">
+                    Submissions / Pending
+                </div>
+
+                <div class="admin-number">
+                    [0] / [0]
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CHARTS + RECENT ACTIVITY -->
+        <div class="admin-lower">
+
+            <div class="admin-chart">
+                CHART: projects by status
+            </div>
+
+
+            <div class="admin-chart">
+                CHART: submissions per month
+            </div>
+
+
+            <div class="admin-box activity-box">
+
+                <h2>
+                    Recent Activity
+                </h2>
+
+                <div class="admin-input">
+                    [user] uploaded [document]
+                </div>
+
+                <div class="admin-input">
+                    [user] account created
+                </div>
+
+                <div class="outline-button export-button">
+                    Export Report
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</section>
+<!-- =========================
+     USER MANAGEMENT
+========================= -->
+<section class="screen user-management-screen">
+
+    <aside class="sidebar">
+
+        <div class="logo-area">
+            <div class="logo-placeholder">
+                LOGO · CapTMS
+            </div>
+        </div>
+
+        <div class="role-label">
+            ADMINISTRATOR
+        </div>
+
+        <div class="nav-item">
+            Dashboard
+        </div>
+
+        <div class="nav-item active">
+            User Accounts
+        </div>
+
+        <div class="nav-item">
+            Roles and Permissions
+        </div>
+
+        <div class="nav-item">
+            Programs
+        </div>
+
+        <div class="nav-item">
+            Project Records
+        </div>
+
+        <div class="nav-item">
+            Reports
+        </div>
+
+        <div class="nav-item">
+            System Settings
+        </div>
+
+        <div class="nav-item logout">
+            Logout
+        </div>
+
+    </aside>
+
+
+    <main class="main-content user-main">
+
+        <div class="user-header">
+
+            <h1>
+                Manage Users
+            </h1>
+
+            <div class="button create-account-button">
+                + Create Account
+            </div>
+
+        </div>
+
+
+        <div class="user-content">
+
+            <!-- USER LIST -->
+            <div class="project-list-card user-list-card">
+
+                <div class="filter-row">
+
+                    <div class="input-box">
+                        Search user
+                    </div>
+
+                    <div class="input-box">
+                        Role ▾
+                    </div>
+
+                </div>
+
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>[Name]</td>
+                            <td>[email]</td>
+                            <td>Student</td>
+                            <td>Active</td>
+                            <td>Edit · Disable</td>
+                        </tr>
+
+                        <tr>
+                            <td>[Name]</td>
+                            <td>[email]</td>
+                            <td>Adviser</td>
+                            <td>Active</td>
+                            <td>Edit · Disable</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+
+            <!-- CREATE / EDIT ACCOUNT -->
+            <div class="project-card account-card">
+
+                <h2>
+                    Create / Edit Account
+                </h2>
+
+                <div class="input-box">
+                    Full name
+                </div>
+
+                <div class="input-box">
+                    Email
+                </div>
+
+                <div class="input-box">
+                    Role ▾ Student / Adviser / Panel / Coordinator / Admin
+                </div>
+
+                <div class="input-box">
+                    Program ▾
+                </div>
+
+                <div class="input-box">
+                    Access permissions ▾
+                </div>
+
+                <div class="button">
+                    Save
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</section>
+<!-- =========================
+     REPORTS AND RECORDS
+========================= -->
+<section class="screen reports-screen">
+
+    <aside class="sidebar">
+
+        <div class="logo-area">
+            <div class="logo-placeholder">
+                LOGO · CapTMS
+            </div>
+        </div>
+
+        <div class="role-label">
+            COORDINATOR / ADMIN
+        </div>
+
+        <div class="nav-item">
+            Dashboard
+        </div>
+
+        <div class="nav-item">
+            Projects
+        </div>
+
+        <div class="nav-item">
+            Similarity Results
+        </div>
+
+        <div class="nav-item">
+            Evaluation Records
+        </div>
+
+        <div class="nav-item active">
+            Reports
+        </div>
+
+        <div class="nav-item logout">
+            Logout
+        </div>
+
+    </aside>
+
+
+    <main class="main-content reports-main">
+
+        <div class="page-header">
+            <h1>
+                Reports and Records
+            </h1>
+        </div>
+
+
+        <!-- FILTERS -->
+        <div class="report-filters">
+
+            <div class="input-box">
+                Report type ▾ Project status / Submissions / Evaluations / Similarity
+            </div>
+
+            <div class="input-box">
+                Program ▾
+            </div>
+
+            <div class="input-box">
+                Date range
+            </div>
+
+            <div class="button generate-button">
+                Generate
+            </div>
+
+        </div>
+
+
+        <!-- REPORT PREVIEW -->
+        <div class="report-content">
+
+            <div class="report-preview">
+
+                <h2>
+                    Report Preview
+                </h2>
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Project</th>
+                            <th>Status</th>
+                            <th>Submitted</th>
+                            <th>Pending</th>
+                            <th>Evaluation</th>
+                            <th>Similarity</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>[Title]</td>
+                            <td>Ongoing</td>
+                            <td>[2]</td>
+                            <td>[1]</td>
+                            <td>[result]</td>
+                            <td>[ % ]</td>
+                        </tr>
+
+                        <tr>
+                            <td>[Title]</td>
+                            <td>Completed</td>
+                            <td>[4]</td>
+                            <td>[0]</td>
+                            <td>[result]</td>
+                            <td>[ % ]</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+
+            <!-- CHART + ACTIONS -->
+            <div class="report-side">
+
+                <div class="report-chart">
+                    CHART: status summary
+                </div>
+
+                <div class="outline-button">
+                    Print
+                </div>
+
+                <div class="button">
+                    Export PDF
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</section>
+<!-- =========================
+     NOTIFICATIONS
+========================= -->
+<section class="screen notifications-screen">
+
+    <aside class="sidebar">
+
+        <div class="logo-area">
+            <div class="logo-placeholder">
+                LOGO · CapTMS
+            </div>
+        </div>
+
+        <div class="role-label">
+            ALL ROLES (items vary by role)
+        </div>
+
+        <div class="nav-item">
+            Dashboard
+        </div>
+
+        <div class="nav-item">
+            Projects / Submissions
+        </div>
+
+        <div class="nav-item active">
+            Notifications
+        </div>
+
+        <div class="nav-item">
+            Profile
+        </div>
+
+        <div class="nav-item logout">
+            Logout
+        </div>
+
+    </aside>
+
+
+    <main class="main-content notifications-main">
+
+        <div class="notifications-header">
+
+            <h1>
+                Notifications
+            </h1>
+
+            <div class="outline-button mark-read-button">
+                Mark all as read
+            </div>
+
+        </div>
+
+
+        <!-- FILTERS -->
+        <div class="notification-filters">
+
+            <div class="input-box">
+                All
+            </div>
+
+            <div class="input-box">
+                Unread
+            </div>
+
+            <div class="input-box">
+                Feedback
+            </div>
+
+            <div class="input-box">
+                Deadlines
+            </div>
+
+            <div class="input-box">
+                Similarity
+            </div>
+
+        </div>
+
+
+        <!-- NOTIFICATION LIST -->
+        <div class="notification-list">
+
+            <div class="notification-item">
+                ● New feedback from [adviser] on [document] · [time]
+            </div>
+
+            <div class="notification-item">
+                ● Deadline reminder: [requirement] due in 3 days · [time]
+            </div>
+
+            <div class="notification-item">
+                ● Similarity result ready for [document] · [time]
+            </div>
+
+            <div class="notification-item">
+                ○ New submission from [group] (adviser / coordinator) · [time]
+            </div>
+
+            <div class="notification-item">
+                ○ Pending review / evaluation: [project] · [time]
+            </div>
+
+            <div class="notification-item">
+                ○ You were assigned to [project] (panel) · [time]
+            </div>
+
+            <p class="notification-note">
+                Click a notification to open the related page.
+            </p>
+
+        </div>
+
+    </main>
+
+</section>
+<!-- =========================
+     PROFILE
+========================= -->
+<section class="screen profile-screen">
+
+    <aside class="sidebar">
+
+        <div class="logo-area">
+            <div class="logo-placeholder">
+                LOGO · CapTMS
+            </div>
+        </div>
+
+        <div class="role-label">
+            ALL ROLES
+        </div>
+
+        <div class="nav-item">
+            Dashboard
+        </div>
+
+        <div class="nav-item">
+            Projects / Submissions
+        </div>
+
+        <div class="nav-item">
+            Notifications
+        </div>
+
+        <div class="nav-item active">
+            Profile
+        </div>
+
+        <div class="nav-item logout">
+            Logout
+        </div>
+
+    </aside>
+
+
+    <main class="main-content profile-main">
+
+        <div class="page-header">
+            <h1>
+                My Profile
+            </h1>
+        </div>
+
+
+        <div class="profile-content">
+
+            <!-- PROFILE PHOTO -->
+            <div class="project-card profile-summary">
+
+                <div class="profile-photo">
+                    PHOTO
+                </div>
+
+                <div class="outline-button change-photo-button">
+                    Change Photo
+                </div>
+
+                <div class="profile-name">
+                    [Full name]
+                </div>
+
+                <div class="small-text">
+                    [Role] · [Program]
+                </div>
+
+            </div>
+
+
+            <!-- ACCOUNT INFORMATION -->
+            <div class="project-card account-information">
+
+                <h2>
+                    Account Information
+                </h2>
+
+                <div class="two-column">
+
+                    <div class="input-box">
+                        Full name
+                    </div>
+
+                    <div class="input-box">
+                        ID number
+                    </div>
+
+                </div>
+
+
+                <div class="two-column">
+
+                    <div class="input-box">
+                        Email
+                    </div>
+
+                    <div class="input-box">
+                        Program / Department
+                    </div>
+
+                </div>
+
+
+                <h2>
+                    Change Password
+                </h2>
+
+                <div class="input-box">
+                    Current password
+                </div>
+
+
+                <div class="two-column">
+
+                    <div class="input-box">
+                        New password
+                    </div>
+
+                    <div class="input-box">
+                        Confirm password
+                    </div>
+
+                </div>
+
+
+                <div class="profile-actions">
+
+                    <div class="outline-button">
+                        Cancel
+                    </div>
+
+                    <div class="button">
+                        Save Changes
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</section>
+</body>
+</html>
